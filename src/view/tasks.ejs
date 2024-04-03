@@ -1,0 +1,16 @@
+<!-- Extends layout.ejs -->
+
+<% tasks.forEach((task) => { %>
+<ul>
+  <li>
+      <a href="/tasks/<%= task.id %>">
+        <%= task.title %>
+      </a>
+  </li>
+  <span>
+    <a href="/tasks/<%= task.id %>/delete" style= "color: red; text-decoration: none; border-radius: 5px; background-color: black;"  > Delete </a>
+  </span>
+</ul>
+<% }); %>
+
+<a href="/tasks/new">Add New Task</a>
