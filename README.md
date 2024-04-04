@@ -6,7 +6,7 @@ TaskMaster is a simple yet powerful task management application built using the 
 TaskMaster enables users to manage their tasks effortlessly. Users can add new tasks, view existing tasks, and delete tasks as needed. Each task includes details such as title, description, and creation timestamp.
 
 #### MVC Architecture:
-The project follows the MVC architecture for better code organization and separation of concerns. Models handle the data logic related to tasks, views are responsible for rendering HTML templates using EJS, and controllers manage the interaction between models and views.
+The project follows the MVC architecture for better code organization and separation of concerns. Models handle the data logic related to tasks, views are responsible for rendering HTML templates using EJS, and controllers manage the interaction between models and views. 
 
 #### Displaying Tasks:
 Implement routes and controller methods to display a list of tasks on the homepage.
